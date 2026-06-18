@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MEMBER SERVICE</title>
+    <link href="{{url_for('static',filename='css/common.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='css/member.css')}}" rel="stylesheet">
+
+    <script src="{{url_for('static',filename='js/member.js')}}"></script>
+
+</head>
+<body>
+
+    {% include 'include/header.html' %}
+    {% include 'include/nav.html' %}
+    
+
+    <article id="signin_wrap">
+
+        {% if result == 'fail' %}
+        <p class="signin_result">
+            아이디 또는 비밀번호가 틀렸습니다.
+        </p>
+        {% endif %}
+
+        <div class="signin_form">
+            <form action="/member/signin_confirm" method="post" name="signin_form">
+                <input class="input_basic" type="text" name="mId" placeholder="Input member ID">
+                <br>
+                <input class="input_basic" type="password" name="mPw" placeholder="Input member PW">
+                <br>
+                <input class="input_button_basic_130" type="button" value="SIGN IN" onclick="signinForm();">
+                <input class="input_button_basic_130" type="reset" value="RESET">
+
+            </form>
+        </div>
+    </article>
+
+</body>
+</html>

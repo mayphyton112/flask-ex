@@ -1,0 +1,13 @@
+/* nav 시작 */
+nav > div.nav_wrap{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: right;
+    padding: 10px 0;
+    border-bottom: 1px solid #dadada;
+}
+
+nav > div.nav_wrap a{
+    padding: 0 10px;
+}
+/* nav 끝 */

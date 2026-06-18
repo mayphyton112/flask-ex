@@ -1,0 +1,12 @@
+/* article 시작 */
+article{
+    text-align: center;
+    margin: 50px 0;
+}
+
+article div.index img{
+    min-width: 1000px;
+    max-width: 1000px;
+}
+/* article 끝 */
+

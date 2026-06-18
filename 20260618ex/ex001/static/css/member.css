@@ -1,0 +1,33 @@
+/* article 시작 */
+/* signup */
+#signup_wrap .signup_form{
+    width: 1000px;
+    margin: 50px auto; /*auto-균등분할*/
+    text-align: center;
+}
+
+#signup_wrap .signup_result{
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* signIn */
+#signin_wrap .signin_form{
+    width: 1000px;
+    margin: 50px auto; /*auto-균등분할*/
+    text-align: center;
+}
+
+#signin_wrap .signin_result{
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#signin_wrap p.signin_result {
+    text-align: center;
+}
+/* article 끝 */
+
+
