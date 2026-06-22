@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MEMBER SERVICE</title>
+    <link href="{{url_for('static',filename='css/common.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='css/member.css')}}" rel="stylesheet">
+
+    <script src="{{url_for('static',filename='js/member.js')}}"></script>
+
+</head>
+<body>
+
+    {% include 'include/header.html' %}
+    {% include 'include/nav.html' %}
+    
+
+    <article id="modify_wrap">
+        <div class="modify_form">
+            <form action="/member/modify_confirm" method="post" name="modify_form">
+                <input type="hidden" name="mId" value="{{member.mId}}" > <!--보이진 않지만 id가 실제로 존재하는 것이다.-->
+                <input class="input_basic" type="text" value="{{member.mId}}" readonly disabled>
+                <br>
+                <input class="input_basic" type="password" name="mPw" value="{{member.mPw}}" placeholder="Input member PW">
+                <br>
+                <input class="input_basic" type="email" name="mMail" value="{{member.mMail}}" placeholder="Input member MAIL">
+                <br>
+                <input class="input_basic" type="text" name="mPhone" value="{{member.mPhone}}" placeholder="Input member PHONE">
+                <br>
+                <input class="input_button_basic_130" type="button" value="MODIFY" onclick="modifyForm();">
+                <input class="input_button_basic_130" type="reset" value="RESET">
+
+            </form>
+        </div>
+    </article>
+
+</body>
+</html>

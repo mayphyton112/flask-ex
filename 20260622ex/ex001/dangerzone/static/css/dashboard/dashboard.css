@@ -1,0 +1,32 @@
+#dashboard_wrap {
+    width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.camera_view {
+    display: inline-block;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+#video_img {
+    width: 800px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+th {
+    background-color: #f3f3f3;
+}

@@ -28,6 +28,25 @@
 #signin_wrap p.signin_result {
     text-align: center;
 }
+
+#modify_wrap .modify_form{
+    width: 1000px;
+    margin: 50px auto; /*auto-균등분할*/
+    text-align: center;
+}
+
+#modify_wrap .modify_result{
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/*Delete*/
+#delete_wrap .delete_result{
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
 /* article 끝 */
 
 

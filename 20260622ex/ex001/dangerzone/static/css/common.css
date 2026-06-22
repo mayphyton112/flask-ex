@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #242424;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+.input_basic {
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+.input_button_basic_130 {
+    width: 130px;
+    padding: 10px 0;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    margin: 2px;
+    cursor: pointer;
+}
