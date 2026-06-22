@@ -1,0 +1,46 @@
+#signup_wrap .signup_form {
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#signup_wrap .signup_result {
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#signin_wrap .signin_result {
+    text-align: center;
+    color: #f00;
+}
+
+#signin_wrap .signin_form {
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#signin_wrap .signin_result {
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#modify_wrap .modify_form {
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#delete_wrap .modify_result {
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#delete_wrap .delete_result {
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}

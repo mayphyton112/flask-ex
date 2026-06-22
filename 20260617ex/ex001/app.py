@@ -35,6 +35,7 @@ def get_user(user_id):
 @app.route('/users/<string:name>')
 def get_name(name):
     return f'{name}님 요청'
+
 # http://127.0.0.1:5000/pi/3.14
 @app.route('/pi/<float:pi>')
 def get_pi(pi):

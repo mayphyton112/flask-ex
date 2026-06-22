@@ -1,0 +1,9 @@
+article {
+    text-align: center;
+    margin: 50px 0;
+}
+
+article .index img {
+    min-width: 1000px;
+    max-width: 1000px;
+}
