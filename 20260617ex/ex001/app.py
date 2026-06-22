@@ -20,12 +20,14 @@ def me():
 @app.route('/about')
 def about():
     return '소개 페이지'
-# http://127.0.0.1:5000/user/1
+
 #동적 URL 처리(path parameter)
 #int   정수
 #float 실수
 #string 문자열
 #path
+
+# http://127.0.0.1:5000/user/1
 @app.route('/users/<int:user_id>')
 def get_user(user_id):
     print(f'user_id: {user_id}')
