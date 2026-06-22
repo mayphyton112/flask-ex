@@ -54,7 +54,7 @@ def reconnect_camera():
 
     print("camera reconnected")
 
-#침입가릭을 json에
+#침입기록을 json에
 def save_intrusion_log():
 
     logs = load_intrusion_logs()
